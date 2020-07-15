@@ -1,0 +1,179 @@
+body{
+    background-color: #f8f4f4;
+}
+.navbar-bg{
+    background-color: #1f2833;
+    padding: 0px 10px;
+}
+#logo{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+#home{
+    color: #a2adbb;
+    /* color: white; */
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+#ancore{
+    color: white;
+    font-size: 25px;
+}
+#files{
+    color: aqua;
+    font-size: 27px;
+}
+#navbarDropdown{
+    font-family: 'Spinnaker', sans-serif;
+    color: #a2adbb;
+    /* color: white; */
+    font-weight: 400;
+}
+#input{
+    padding: 2px 6px;
+    margin: 5px 5px;
+}
+.top-description{
+    display: grid;
+    grid-template-columns: 1fr 6fr 1fr;
+}
+.top-box{
+    margin: 10px;
+}
+.year-box{
+    display: grid;
+    grid-template-areas:
+    'first-year second-year third-year forth-year';
+    
+}
+
+#first-year{
+    grid-area: first-year;
+    
+}
+#first-year ul{
+    padding: 10px 15px;
+    margin: 0px 10px;
+}
+#second-year{
+    grid-area: second-year;
+
+}
+#third-year{
+    grid-area: third-year;
+
+}
+#forth-year{
+    grid-area: forth-year;
+
+}
+.years{
+    font-family: 'Spinnaker', sans-serif;
+    margin: 4px;
+    padding: 10px;
+    box-shadow: 0px 0px 8px #d2d2d2;
+    color: white;
+    /* background-color: #404a57;
+    border: 5px #1f2833; */
+    background-color: #1f2833;
+    border-radius: 9px;
+}
+.years p{
+    color: #ff4c14;
+
+    font-size: 29px;
+    margin: auto;
+    text-align: center;
+    font-weight: 400;
+}
+.years ul{
+    list-style-type: circle;
+    padding: 0px 25px;
+
+
+
+}
+.years li{
+    
+    font-weight: 400;
+    margin: 5px 0px;
+
+}
+.years li :hover{
+    color: #9aa2ad;
+    /* color: aqua; */
+
+}
+.years li a{
+    color: white;
+    /* color: white; */
+    text-decoration: none;
+
+}
+
+
+
+
+
+
+
+
+
+
+/* grid-template-columns: 1fr 6fr 1fr; */
+
+
+@media only screen and (max-width:500px) {
+    /* body {
+        background-color: red;
+    } */
+    .years{
+        margin: 8px 20px;
+    }
+    .year-box{
+        grid-template-areas:
+        'first-year'
+         'second-year '
+        'third-year'
+         'forth-year';
+    }
+    .top-description{
+        display: grid;
+        grid-template-columns: 1fr 50fr 1fr;
+    }
+    
+    
+    
+}
+
+@media (min-width: 500px) and (max-width:950px) {
+    /* body {
+        background-color: yellow;
+    } */
+    .year-box{
+        grid-template-areas:
+        'first-year second-year '
+        'third-year forth-year';
+    }
+    .top-description{
+        
+        grid-template-columns: 1fr 8fr 1fr;
+    }
+    
+
+
+    
+}
+
+@media (min-width: 950px) {
+    body {
+        /* background-color: green; */
+    }
+    .year-box{
+        grid-template-areas:
+        'first-year second-year third-year forth-year';
+    }
+    
+    
+}
