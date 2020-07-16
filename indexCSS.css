@@ -270,7 +270,7 @@ footer{
 @media only screen and (max-width:650px) {
     
     .years{
-        margin: 16px 20px;
+        margin: 20px 20px;
        
     }
     .year-box{
@@ -290,7 +290,7 @@ footer{
         font-size: 22px;
     }
     .sub-main-child{
-        margin: 16px 20px;
+        margin: 20px 20px;
     }
 
 
