@@ -25,7 +25,7 @@ body{
     font-size: 27px;
 }
 #navbarDropdown{
-    font-family: 'Spinnaker', sans-serif;
+    font-family: 'Poppins', sans-serif;
     color: #a2adbb;
     /* color: white; */
     font-weight: 400;
@@ -43,6 +43,8 @@ body{
 }
 .year-box{
     display: grid;
+    /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+
     grid-template-areas:
     'first-year second-year third-year forth-year';
     
@@ -69,7 +71,7 @@ body{
 
 }
 .years{
-    font-family: 'Spinnaker', sans-serif;
+    font-family: 'Poppins', sans-serif;
     margin: 4px;
     padding: 10px;
     box-shadow: 0px 0px 8px #d2d2d2;
@@ -115,6 +117,128 @@ body{
 
 
 
+/* Years css */
+
+.sub-top{
+    display: flex;
+    flex-direction: column;
+    background-color: #1f2833;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    border-radius: 10px;
+}
+.sub-top a{
+    text-decoration: none;
+    /* color: black; */
+}
+.sub-top-child-a{
+    
+
+}
+.sub-top-child-a :hover{
+    color: #d3471c;
+
+}
+.sub-top-child-1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+    color: white;
+    
+
+    
+}
+.sub-top-child{
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    /* color: #ff4c14; */
+
+}
+.sub-top-child a{
+    color: #ff4c14;
+
+}
+.sub-top-child-b{
+    display: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+}
+.sub-top-child-b a{
+    color: #ff4c14;
+    
+}
+
+
+.sub-main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.sub-main-child{
+    margin: 5px 10px;
+    background-color: #1f2833;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+.sub-main-child p{
+    text-align: center;
+    color: #ff4c14;
+
+    font-size: 29px;
+    margin: 0px;
+}
+
+.drop{
+    background-color: #1f2833;
+    color: white;
+}
+.drop :hover{
+    color: white;
+}
+.drop-main{
+    background-color: #424f5f;
+    color: white;
+}
+.drop-main :hover{
+    /* color: white; */
+    background-color: #1f2833;
+}
+
+
+
+
+footer{
+    background-color: #1f2833;
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 50px;
+    
+}
+.foot{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 11px;
+    margin: 10px 0px;
+
+}
+.feedback{
+    /* color: #ff4c14;
+    font-size: 14px; */
+    /* text-decoration: underline; */
+}
+.feedback a{
+    color: #ff4c14;
+    font-size: 14px;
+}
+
+
+
 
 
 
@@ -137,11 +261,32 @@ body{
          'second-year '
         'third-year'
          'forth-year';
+         /* grid-template-columns: 1fr; */
     }
     .top-description{
         display: grid;
         grid-template-columns: 1fr 50fr 1fr;
     }
+    .sub-top-child-b{
+        display: block;
+        font-size: 22px;
+    }
+
+
+
+    .sub-main{
+        display: grid;
+        grid-template-columns: 1fr ;
+    }
+
+    .foot{
+        font-size: 10px;
+    }
+    .feedback a{
+        color: #ff4c14;
+        font-size: 12px;
+    }
+    
     
     
     
@@ -152,6 +297,7 @@ body{
         background-color: yellow;
     } */
     .year-box{
+        /* grid-template-columns: 1fr 1fr; */
         grid-template-areas:
         'first-year second-year '
         'third-year forth-year';
@@ -161,6 +307,12 @@ body{
         grid-template-columns: 1fr 8fr 1fr;
     }
     
+
+
+    .sub-main{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
 
 
     
@@ -173,7 +325,11 @@ body{
     .year-box{
         grid-template-areas:
         'first-year second-year third-year forth-year';
+        /* grid-template-columns: 1fr 1fr 1fr 1fr; */
     }
     
-    
+    .sub-main{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
 }
