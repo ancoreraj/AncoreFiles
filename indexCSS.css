@@ -103,7 +103,7 @@ body{
     font-size: 29px;
     margin: auto;
     text-align: center;
-    font-weight: 400;
+    font-weight: 500;
 }
 .years ul{
     list-style-type: circle;
@@ -149,6 +149,7 @@ body{
     /* color: black; */
 }
 .sub-top-child-a{
+    font-weight: 500;
     
 
 }
@@ -167,7 +168,7 @@ body{
 }
 .sub-top-child{
     font-family: 'Poppins', sans-serif;
-    font-size: 30px;
+    font-size: 28px;
     font-weight: 500;
     /* color: #ff4c14; */
 
@@ -179,7 +180,7 @@ body{
 .sub-top-child-b{
     display: none;
     font-family: 'Poppins', sans-serif;
-    font-size: 25px;
+    font-size: 28px;
     font-weight: 500;
 }
 .sub-top-child-b a{
@@ -204,8 +205,10 @@ body{
 .sub-main-child p{
     text-align: center;
     color: #ff4c14;
+    font-weight: 500;
+   
 
-    font-size: 29px;
+    font-size: 27px;
     margin: 0px;
 }
 
@@ -262,6 +265,9 @@ footer{
 .whole{
     height: 100vh;
 }
+.index-height{
+    height: 100%;
+}
 
 
 /* grid-template-columns: 1fr 6fr 1fr; */
@@ -309,6 +315,9 @@ footer{
     }
     
     .whole{
+        height: 100%;
+    }
+    .index-height{
         height: 100%;
     }
 
