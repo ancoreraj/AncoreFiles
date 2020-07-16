@@ -199,6 +199,7 @@ body{
     color: white;
     border-radius: 10px;
     padding: 10px;
+    box-shadow: 0px 5px 20px #000000;
 }
 .sub-main-child p{
     text-align: center;
@@ -287,6 +288,9 @@ footer{
     .sub-top-child-b{
         display: block;
         font-size: 22px;
+    }
+    .sub-main-child{
+        margin: 16px 20px;
     }
 
 
