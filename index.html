@@ -12,13 +12,14 @@
     <link rel="stylesheet" href="indexCSS.css">
     <!-- <link href="https://fonts.googleapis.com/css2?family=Poppins" rel="stylesheet"> -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
     <title>Home</title>
 </head>
 
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark navbar-bg">
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-bg" data-aos="fade-down">
         <a id="logo" class="navbar-brand" href="index.html"><span id="ancore">Ancore</span><span id="files">files</span></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -39,10 +40,10 @@
                         Year
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">1st Year</a>
-                        <a class="dropdown-item" href="#">2nd Year</a>
-                        <a class="dropdown-item" href="#">3rd Year</a>
-                        <a class="dropdown-item" href="#">4th Year</a>
+                        <a class="dropdown-item" href="#first-year">1st Year</a>
+                        <a class="dropdown-item" href="#second-year">2nd Year</a>
+                        <a class="dropdown-item" href="#third-year">3rd Year</a>
+                        <a class="dropdown-item" href="#forth-year">4th Year</a>
                         <!-- <div class="dropdown-divider"></div>
                         <a class="dropdown-item" href="#">Something else here</a> -->
                     </div>
@@ -61,7 +62,7 @@
         <div class="top-box">
 
         </div>
-        <div class="top-box">
+        <div class="top-box" data-aos="zoom-in">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione corporis officiis a soluta
             asperiores, ad velit praesentium illo reiciendis esse quibusdam sit! Totam repellendus quo
             iusto illo ea! Non, ex dolor exercitationem consectetur nulla possimus fugit perspiciatis
@@ -81,54 +82,54 @@
     </div>
 
     <div class="year-box">
-        <div id="first-year" class="years">
-            <p>1st year</p>
+        <div id="first-year" class="years" data-aos="fade-up">
+            <p name="1yr">1st year</p>
             <ul>
-                <li><a href="">Group 1</a></li>
-                <li><a href="">Group 2</a></li>
+                <li><a href="#">Group 1</a></li>
+                <li><a href="#">Group 2</a></li>
             </ul>
             
             
 
         </div>
-        <div id="second-year" class="years">
-            <p>2nd year</p>
+        <div id="second-year" class="years" data-aos="fade-up">
+            <p name="2yr" >2nd year</p>
             <ul>
                 <li><a href="2cse.html">Computer Science & Engineering</a></li>
-                <li><a href="">Civil Engineering</a></li>
-                <li><a href="">Electrical Engineering</a></li>
-                <li><a href="">Electronics & Communication Engineering</a></li>
-                <li><a href="">Mechanical Engineering</a></li>
-                <li><a href="">Production Engineering</a></li>
-                <li><a href="">Electronics & InstumentationEngineering</a></li>
+                <li><a href="#">Civil Engineering</a></li>
+                <li><a href="#">Electrical Engineering</a></li>
+                <li><a href="#">Electronics & Communication Engineering</a></li>
+                <li><a href="#">Mechanical Engineering</a></li>
+                <li><a href="#">Production Engineering</a></li>
+                <li><a href="#">Electronics & InstumentationEngineering</a></li>
             </ul>
             
 
         </div>
-        <div id="third-year" class="years">
-            <p>3rd year</p>
+        <div id="third-year" class="years" data-aos="fade-up">
+            <p name="3yr">3rd year</p>
             <ul>
-                <li><a href="">Computer Science & Engineering</a></li>
-                <li><a href="">Civil Engineering</a></li>
-                <li><a href="">Electrical Engineering</a></li>
-                <li><a href="">Electronics & Communication Engineering</a></li>
-                <li><a href="">Mechanical Engineering</a></li>
-                <li><a href="">Production Engineering</a></li>
-                <li><a href="">Electronics & InstumentationEngineering</a></li>
+                <li><a href="#">Computer Science & Engineering</a></li>
+                <li><a href="#">Civil Engineering</a></li>
+                <li><a href="#">Electrical Engineering</a></li>
+                <li><a href="#">Electronics & Communication Engineering</a></li>
+                <li><a href="#">Mechanical Engineering</a></li>
+                <li><a href="#">Production Engineering</a></li>
+                <li><a href="#">Electronics & InstumentationEngineering</a></li>
             </ul>
            
 
         </div>
-        <div id="forth-year" class="years">
-            <p>4th year</p>
+        <div id="forth-year" class="years" data-aos="fade-up">
+            <p name="4yr">4th year</p>
             <ul>
-                <li><a href="">Computer Science & Engineering</a></li>
-                <li><a href="">Civil Engineering</a></li>
-                <li><a href="">Electrical Engineering</a></li>
-                <li><a href="">Electronics & Communication Engineering</a></li>
-                <li><a href="">Mechanical Engineering</a></li>
-                <li><a href="">Production Engineering</a></li>
-                <li><a href="">Electronics & InstumentationEngineering</a></li>
+                <li><a href="#">Computer Science & Engineering</a></li>
+                <li><a href="#">Civil Engineering</a></li>
+                <li><a href="#">Electrical Engineering</a></li>
+                <li><a href="#">Electronics & Communication Engineering</a></li>
+                <li><a href="#">Mechanical Engineering</a></li>
+                <li><a href="#">Production Engineering</a></li>
+                <li><a href="#">Electronics & InstumentationEngineering</a></li>
             </ul>
             
 
@@ -136,7 +137,7 @@
     </div>
 
 
-    <footer>
+    <footer >
         <div class="foot"></div>
         <div class="foot">
             <span>Made by Ankur Raj</span>
@@ -151,6 +152,13 @@
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+        offset: 100,
+        duration: 900
+    });
+  </script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
         crossorigin="anonymous"></script>
