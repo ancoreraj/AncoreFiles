@@ -242,13 +242,15 @@ footer{
 
 
 
-
+.whole{
+    height: 100vh;
+}
 
 
 /* grid-template-columns: 1fr 6fr 1fr; */
 
 
-@media only screen and (max-width:500px) {
+@media only screen and (max-width:650px) {
     /* body {
         background-color: red;
     } */
@@ -287,12 +289,17 @@ footer{
         font-size: 12px;
     }
     
-    
-    
-    
+    .whole{
+        height: 100%;
+    }
 }
 
-@media (min-width: 500px) and (max-width:950px) {
+    
+    
+    
+
+
+@media (min-width: 650px) and (max-width:950px) {
     /* body {
         background-color: yellow;
     } */
