@@ -1,3 +1,7 @@
+html,body{
+    scroll-behavior: smooth;
+}
+
 body{
     background-color: #f8f4f4;
 }
