@@ -247,7 +247,7 @@ footer{
     display: grid;
     grid-template-columns: 1fr 5fr 1fr;
     font-family: 'Poppins', sans-serif;
-    margin-top: 20px;
+    margin-top: 40px;
     box-shadow: 0px 0px 10px #000000;
     
 }
