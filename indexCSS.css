@@ -3,7 +3,13 @@ html,body{
 }
 
 body{
-    background-color: #f8f4f4;
+    /* background-color: #f8f4f4; */
+    background-image: url('nick.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    
 }
 .navbar-bg{
     background-color: #1f2833;
@@ -44,6 +50,9 @@ body{
 }
 .top-box{
     margin: 10px;
+    color: #525252;
+    font-size: 17px;
+    font-weight: 400;
     /* animation: fadein 2s; */
 }
 
