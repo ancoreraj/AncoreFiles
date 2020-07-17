@@ -4,7 +4,7 @@ html,body{
 
 body{
     /* background-color: #f8f4f4; */
-    background-image: url('nick.jpg');
+    background-image: url('nick-min.jpg');
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
@@ -14,6 +14,7 @@ body{
 .navbar-bg{
     background-color: #1f2833;
     padding: 0px 10px;
+    box-shadow: 0px 0px 10px #000000;
 }
 #logo{
     color: white;
@@ -50,7 +51,7 @@ body{
 }
 .top-box{
     margin: 10px;
-    color: #525252;
+    color: #4a515f;
     font-size: 17px;
     font-weight: 400;
     /* animation: fadein 2s; */
@@ -150,9 +151,9 @@ body{
     background-color: #1f2833;
     justify-content: center;
     align-items: center;
-    margin: 20px 10px;
+    margin: 25px 10px;
     border-radius: 10px;
-    box-shadow: 0px 5px 20px #000000;
+    box-shadow: 0px 0px 10px #000000;
 }
 .sub-top a{
     text-decoration: none;
@@ -210,7 +211,7 @@ body{
     color: white;
     border-radius: 10px;
     padding: 10px;
-    box-shadow: 0px 5px 20px #000000;
+    box-shadow: 0px 0px 10px #000000;
 }
 .sub-main-child p{
     text-align: center;
@@ -247,6 +248,7 @@ footer{
     grid-template-columns: 1fr 5fr 1fr;
     font-family: 'Poppins', sans-serif;
     margin-top: 0px;
+    box-shadow: 0px 0px 10px #000000;
     
 }
 .foot{
@@ -288,6 +290,9 @@ footer{
     .years{
         margin: 20px 20px;
        
+    }
+    .sub-top{
+        margin: 25px 20px 20px 20px;
     }
     .year-box{
         grid-template-areas:
