@@ -245,7 +245,7 @@ body{
 footer{
     background-color: #1f2833;
     display: grid;
-    grid-template-columns: 1fr 5fr 1fr;
+    grid-template-columns: 1fr 10fr 2fr;
     font-family: 'Poppins', sans-serif;
     margin-top: 40px;
     box-shadow: 0px 0px 10px #000000;
@@ -257,7 +257,43 @@ footer{
     color: white;
     font-size: 11px;
     margin: 5px 0px;
+    
 
+}
+#social a {
+    list-style-type: none;
+    margin: 4px 5px;
+    padding: 6px;
+    /* color: #fff; */
+    /* border: 1px solid #fff; */
+    border-radius: 14px;
+}
+#social{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+#linkedin{
+    background-color: #0e76a8;
+    color: white;
+    font-size: 18px;
+    /* border: 2px solid #0e76a8; */
+    
+    
+}
+#whatsapp{
+    background-color: #25d366;
+    /* border: 2px solid #25d366; */
+    color: white;
+    font-size: 18px;
+    
+}
+#github{
+    background-color: grey;
+    color: white;
+    font-size: 18px;
+    /* border: 2px solid grey; */
 }
 .feedback{
     /* color: #ff4c14;
@@ -338,6 +374,11 @@ footer{
 
     footer{
         margin-top: 50px;
+    }
+
+    #social a{
+        margin: 4px 4px;
+        font-size: 13px;
     }
 }
 
